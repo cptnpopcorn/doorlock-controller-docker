@@ -1,7 +1,7 @@
 FROM golang:1.25.5-alpine3.23 AS compiled
 
 ARG APP_REPO=https://github.com/cptnpopcorn/doorlock-controller.git
-ARG APP_REF=v1.1.2
+ARG APP_REF=v1.2.0
 
 RUN apk add --no-cache git
 
